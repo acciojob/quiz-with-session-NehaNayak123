@@ -9,13 +9,13 @@ h1{
     text-align: center;
 }
 #questions  , #score{
-    /* background-color: white; */
     padding: 60px;
-    /* padding-left: 200px; */
     text-align: start;
     padding-top: 0;
     padding-bottom: 0;
-
+}
+#score{
+	color:red;
 }
 #submit{
 	margin:30px;

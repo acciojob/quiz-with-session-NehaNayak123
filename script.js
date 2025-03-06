@@ -100,9 +100,10 @@ function calculateScore(){
 }
 submit.addEventListener("click", ()=>{
   const score=calculateScore()
-  score.textContent=`Your score is ${score} out of ${questions.length}.`;
-
-  localStorage.setItem("score", score)
+  // score.textContent=`Your score is ${score} out of ${questions.length}.`;
+	score.textContent=`Your score is ${calculateScore()} out of ${questions.length}.`;
+  
+	localStorage.setItem("score", score)
 })
 
 
