@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+body{
+    background-color: lightgray;
+    color: black;
+    margin: auto;
+    /* text-align: center; */
+	padding-bottom:60px;
+}
+h1{
+    text-align: center;
+}
+#questions  , #score{
+    /* background-color: white; */
+    padding: 60px;
+    /* padding-left: 200px; */
+    text-align: start;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+#submit{
+	margin:30px;
+    margin-left: 60px;
+}
